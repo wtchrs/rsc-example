@@ -1,0 +1,23 @@
+{
+  "name": "rsc-example",
+  "version": "0.0.1",
+  "description": "React Server Components Super Simple Example",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./build/index.js"
+  },
+  "keywords": ["react", "server-components", "rsc"],
+  "author": "wtchrs",
+  "dependencies": {
+    "express": "^4.19.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.30",
+    "@types/react": "^18.2.73",
+    "@types/react-dom": "^18.2.23",
+    "typescript": "^5.4.3"
+  }
+}
